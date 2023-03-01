@@ -1,0 +1,107 @@
+
+*{
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+  }
+
+.container-header{
+    
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.containar-img{
+    display: flex;
+    align-items: flex-start;
+    width: 20%;
+}
+.container-info{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#titulo {
+    font-family: 'Special Elite', cursive;
+    color: white;
+    font-size: 50px;
+    }
+.subtitulo_rojo {
+    margin-top: 0px;
+    font-family: 'Special Elite', cursive;
+    color: red;
+}
+
+#informacionPersonal {
+    color: white;
+    height: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+}
+
+.container-ul {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+#presentacion {
+    color: white;
+    padding-left: 5px;
+    height: 300 px;
+    font-family: 'Roboto', sans-serif;
+}
+#habilidades{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+
+}
+#formacionAcademica{   
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    }
+
+.formacionaca{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#experienciaLaboral{
+    position:relative;
+    height: 300px;
+    padding-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container-general{
+    display: flex;
+    width: 100%;
+}
+.container-izquierda{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.container-derecha{
+    padding: 15px;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
